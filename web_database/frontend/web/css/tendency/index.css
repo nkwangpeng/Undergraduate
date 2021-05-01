@@ -1,0 +1,194 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#dataFrom {
+	position: fixed;
+	right: 20px;
+	bottom: 5px;
+	font-size: 12px;
+	text-align: right;
+	/* margin-right: 40px; */
+	color: #999;
+}
+
+#dataFrom span {
+	display: inline-flex;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 10px;
+	vertical-align: middle;
+}
+
+#dataFrom a,
+#dataFrom a:active,
+#dataFrom a:hover {
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+}
+
+#main {
+	margin-top: -20px;
+	width: 100%;
+	height: calc(100% - 150px);
+}
+
+#realTimeData {
+	border: 0px;
+	border-radius: 0px;
+	margin: 0px;
+	background-color: rgba(130, 210, 10, 0);
+	display: inline-block;
+	width: calc(100%);
+	overflow: hidden;
+}
+
+.statistics {
+	display: block;
+	margin: 5px auto;
+	padding: 0;
+	max-width: 600px;
+}
+
+.statistics li {
+	display: flex;
+	flex: 1 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 16.6666%;
+	float: left;
+	margin: 5px auto;
+}
+
+.statistics li span {
+	color: #666;
+	font-size: 12px;
+	transform: scale(0.9);
+}
+
+.datatitle {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #2d9fe2e8;
+}
+
+.datasubtitle {
+	font-size: 14px;
+	margin: 5px auto 15px auto;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.datasubtitle::after {
+	content: '?';
+	font-size: 12px;
+	transform: scale(0.8);
+	margin: -5px 5px;
+	text-align: center;
+	color: #fff;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	padding: 0;
+	position: absolute;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+	background-color: #ccc;
+}
+
+.statistics li strong {
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.statistics li strong::after {
+	content: attr(dataContent);
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	transform: scale(0.8);
+	position: absolute;
+	margin: -10px -5px;
+	line-height: 12px;
+}
+
+.popshow::after {
+	border: solid 1px #ff4200d6;
+	background: #f64e4edb;
+	border-radius: 25%;
+	padding: 1px;
+}
+
+.statistics li span::after {
+	content: attr(dataContent);
+	color: #3186cf6b;
+	font-size: 12px;
+	transform: scale(0.8);
+	position: absolute;
+	margin: -8px -5px;
+}
+
+.tooltipster-shadow {
+	opacity: 0.9;
+}
+
+.process {
+	height: 2px;
+	background-color: #9e9e9e12;
+	width: 100%;
+}
+.processValue {
+	display: block;
+	height: 100%;
+	background-color: #4caf50bd;
+	width: 0%;
+}
+.processDoc {
+	position: relative;
+	left: 0;
+	margin-left: -10px;
+	top: -18px;
+}
+.freshDiv {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+@keyframes flash-rotate {
+	0% {
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+.animation-rotate {
+	animation-name: flash-rotate;
+	animation-duration: 0.8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: flash-rotate;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@media all and (max-width: 600px) {
+	.statistics li {
+		width: 33.3333%;
+	}
+	#main {
+		height: calc(100% - 205px);
+	}
+}

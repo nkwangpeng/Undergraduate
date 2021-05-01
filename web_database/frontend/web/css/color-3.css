@@ -1,0 +1,119 @@
+
+
+/* Color */
+
+
+.btn-style-one,
+.btn-style-three,
+.theme_color,
+.main-header .header-upper .contact-number .icon,
+.main-header .info-box .icon-box,
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li > ul > li:hover > a,
+.feature-block-one .inner-box .content h3 a:hover,
+.feature-block-four .inner-box .content h3 a:hover,
+.news-block .inner-box .lower-content .read-more .arrow,
+.list-style-two li:before,
+.feature-block .inner-box h3 a:hover,
+.news-block .inner-box .lower-content h3 a:hover,
+.news-block .inner-box .lower-content .read-more:hover,
+.feature-block-three .inner-box h3 span,
+.team-block .inner-box .lower-content h3 a:hover,
+.contact-info-block .inner-box .text a:hover,
+.category-list li a:hover,
+.widget_popular_posts .post a:hover,
+.news-block-two .inner-box .lower-content .post-meta li a:hover,
+.sidebar-page-container .comments-area .comment .comment-reply,
+.news-block-two .inner-box .lower-content h2 a:hover,
+.accordion-box .block .acc-btn.active,
+.testimonial-block-one .inner-box .image:after,
+.sec-title h4,
+.process-block .image:before,
+.main-footer.style-two .list li a:hover,
+.main-footer.style-two .widget_contact .list li a:hover,
+.testimonial-block-one .inner-box .image:before,
+.main-header .header-upper .option-box .contact-us a span,
+
+.btn-style-one:hover,
+a {
+	color:#ffbe00;
+}
+
+
+/* Bakcground Color */
+
+.social-icon-one li a:hover,
+.btn-style-four,
+.scroll-to-top:hover,
+.appointment-box,
+.appointment-box .inner-box,
+.main-slider .owl-dots .owl-dot:before,
+.main-slider .owl-nav .owl-prev:hover,
+.main-slider .owl-nav .owl-next:hover,
+.optimized-form .form-group .report-btn,
+.video-boxed .inner-box,
+.report-form .form-group .report-btn,
+.emailed-form .form-group input[type="submit"],
+.emailed-form .form-group button,
+.contact-form .form-group .submit-btn,
+.styled-pagination li a:hover,
+.styled-pagination li .current,
+.widget_instagram .image-box .overlay-box,
+.widget_popular_tags a:hover,
+.news-block-two .inner-box .lower-content .lower-box .read-more:hover,
+.main-menu .navbar-header .navbar-toggler,
+.error-search-form .form-group button,
+.emergency-contact-button:before,
+.emergency-contact-button:after,
+.news-block-two .inner-box .date,
+.comment-form .post-btn,
+.main-footer.style-two .social-icon-one li a:hover,
+.situation-block:after,
+
+.scroll-to-top,
+.btn-style-two {
+	background: #ffbe00;
+}
+
+
+
+
+/* Border Color */
+
+.main-header .header-upper .search-box-outer .dropdown-menu,
+.main-header .header-upper .search-panel input:focus,
+.main-header .header-upper .search-panel select:focus,
+.main-slider .owl-nav .owl-prev:hover,
+.main-slider .owl-nav .owl-next:hover,
+.feature-block-one .inner-box:hover,
+.feature-block-four .inner-box:hover,
+.main-slider .owl-dots .owl-dot,
+.contact-info-block .inner-box,
+.styled-pagination li a:hover,
+.styled-pagination li .current,
+.widget_popular_tags a:hover,
+.news-block-two .inner-box .lower-content .lower-box .read-more:hover,
+.main-menu .navbar-header .navbar-toggler,
+.social-icon-one li a:hover {
+	border-color:#ffbe00;
+}
+
+
+
+
+/* Box Shadow */
+
+.situation-block:before {
+	-webkit-box-shadow: 0 0 0 0 #ffbe00;
+	-ms-box-shadow: 0 0 0 0 #ffbe00;
+	-o-box-shadow: 0 0 0 0 #ffbe00;
+	box-shadow: 0 0 0 0 #ffbe00;
+}
+
+
+
+
+
+
+
+

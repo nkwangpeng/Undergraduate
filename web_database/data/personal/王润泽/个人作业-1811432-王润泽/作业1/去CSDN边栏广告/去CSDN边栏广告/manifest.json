@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Close ads of CSDN",
+  "version": "1.5",
+  "description": "Close ads of CSDN",
+
+  "browser_action": {
+    "default_title": "Close ads of CSDN"
+  },
+  "icons": {
+    "1": "img/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://blog.csdn.net/*" ],
+      "js": [ "csdn.js" ]
+    }
+  ]
+}

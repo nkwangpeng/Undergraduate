@@ -1,0 +1,220 @@
+.rtl {
+	direction: rtl;
+	text-align: right;
+}
+
+.rtl .owl-carousel {
+	direction: ltr;
+}
+
+.rtl .main-menu .navigation {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.rtl .main-menu .navigation > li:last-child {
+	margin-right: 40px;
+}
+
+.rtl .main-header .header-upper .logo-box {
+	float: right;
+}
+
+.rtl .main-header .nav-outer {
+	float: left;
+}
+
+.rtl .main-header .header-upper .option-box {
+    float: left;
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.rtl .main-menu {
+    float: right;
+}
+
+.rtl .main-menu .navigation > li > ul {
+    left: auto;
+    right: 0;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after {
+    right: auto;
+    left: 25px;
+    transform: rotate(180deg);
+    top: 12px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul {
+    left: auto;
+    right: 100%;
+}
+
+.rtl .main-slider .slide .content {
+    float: right;
+}
+
+.rtl .main-slider .icon {
+    right: auto;
+    left: 20%;
+}
+
+.rtl .list-style-two li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.rtl .list-style-two li:before {
+    left: auto;
+    right: 0;
+}
+
+.rtl .symptoms-section-two .order-lg-2 .list-style-two {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rtl .symptoms-section-two .list-style-two li {
+    padding-left: 0;
+    padding-right: 55px;
+    text-align: right;
+}
+
+.rtl .symptoms-section-two .list-style-two li:before {
+    left: 0;
+    right: 30px;
+}
+
+.rtl .situation-section {
+    direction: ltr;
+}
+
+.rtl .situation-block .situation-content {
+    direction: rtl;
+}
+
+.rtl .news-block-four .inner-box .image {
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+.rtl .news-block-three .inner-box .lower-content {
+	left: auto;
+	right: 30px;
+}
+
+.rtl .service-block-one .inner-box .content .text,
+.rtl .sec-title .text {
+	font-size: 20px;
+}
+
+.rtl .main-slider .link-box .theme-btn {
+    min-width: 150px;
+    text-align: center;
+}
+
+.rtl .contact-info-box .info-list:before {
+	left: auto;
+	right: 0;
+}
+
+.rtl .page-title .page-breadcrumb li:after {
+    right: auto;
+    left: -4px;
+    transform: rotate(180deg);
+    top: 0;
+}
+
+.rtl .page-title .page-breadcrumb li {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.rtl .feature-block-four .inner-box .content {
+    padding-left: 0;
+    padding-right: 90px;
+}
+
+.rtl .feature-block-four .inner-box .content .icon-box {
+    right: 0;
+}
+
+.rtl .accordion-box .block .acc-btn {
+    padding-right: 58px;
+    padding-left: 30px;
+}
+
+.rtl .accordion-box .block .icon-outer {
+    left: auto;
+    right: 32px;
+    top: 45px;
+}
+
+.rtl .accordion-box .block .icon-outer .icon {
+    transform: rotate(180deg);
+}
+
+.rtl .widget_popular_posts .post {
+    padding-left: 0;
+    padding-right: 110px;
+}
+
+.rtl .widget_popular_posts .post .post-thumb {
+    left: auto;
+    right: 0;
+}
+
+.rtl .widget_popular_posts .post .text {
+    padding-right: 0;
+}
+
+.rtl .news-block-two .post-meta {
+    text-align: right;
+}
+
+.rtl .news-block-two .post-meta ul li {
+    float: right;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.rtl .news-block-two .post-meta ul li:before {
+    right: auto;
+    left: 0;
+}
+
+.rtl .news-block-two .inner-box .date {
+	left: auto;
+	right: 30px;
+}
+
+.rtl .author-box .author-comment .inner {
+    padding-right: 75px;
+    padding-left: 0;
+}
+
+.rtl .author-box .author-comment .inner .image {
+    left: auto;
+    right: 0;
+}
+
+.rtl .sidebar-page-container .comments-area .comment {
+    padding-right: 85px;
+    padding-left: 0;
+}
+
+.rtl .sidebar-page-container .comments-area .comment-box .author-thumb {
+    left: auto;
+    right: 0;
+}
+
+.rtl .symptoms-section .image-column .inner-column .image {
+	margin-left: auto;
+	margin-right: -150px;
+}
+

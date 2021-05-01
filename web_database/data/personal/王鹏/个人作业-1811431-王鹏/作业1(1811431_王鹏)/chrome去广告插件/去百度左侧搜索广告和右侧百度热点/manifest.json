@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "百度广告去除",
+  "version": "1.9",
+  "description": "百度广告去除",
+
+  "browser_action": {
+    "default_title": "百度广告去除"
+  },
+  "icons": {
+    "1": "img/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://www.baidu.com/*" ],
+       "css": [ "erase.css" ]
+    }
+  ]
+}

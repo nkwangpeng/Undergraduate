@@ -1,0 +1,10 @@
+#content_left > div:not(.c-container) {
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.cr-content > div:not(.opr-recommends-merge-content) {
+    height: 0;
+    display: none;
+}
