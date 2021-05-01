@@ -1,0 +1,10 @@
+﻿  chatServerDlg.cpp
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(208,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(210,11): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(230,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  正在生成代码
+  5 of 196 functions ( 2.6%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  chatServer.vcxproj -> E:\VS2019\project\MFC\chatServer\Release\chatServer.exe

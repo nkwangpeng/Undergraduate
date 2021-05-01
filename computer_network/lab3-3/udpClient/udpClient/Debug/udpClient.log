@@ -1,0 +1,12 @@
+﻿  udpClient.cpp
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(72,9): warning C4244: “return”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(110,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(88,32): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(95,32): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(149,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(156,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(160,2): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(165,32): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(178,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(179,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\lab3-3\udpClient\udpClient\udpClient.cpp(180,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

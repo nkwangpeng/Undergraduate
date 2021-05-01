@@ -1,0 +1,8 @@
+﻿  udpServer.cpp
+E:\VS2019\project\lab3-3\udpServer\udpServer\udpServer.cpp(65,2): warning C4091: “typedef ”: 没有声明变量时忽略“PacketList”的左侧
+E:\VS2019\project\lab3-3\udpServer\udpServer\udpServer.cpp(110,9): warning C4244: “return”: 从“unsigned long”转换到“unsigned short”，可能丢失数据
+E:\VS2019\project\lab3-3\udpServer\udpServer\udpServer.cpp(140,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\VS2019\project\lab3-3\udpServer\udpServer\udpServer.cpp(222,5): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS2019\project\lab3-3\udpServer\udpServer\udpServer.cpp(332,7): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  LINK : 没有找到 E:\VS2019\project\lab3-3\udpServer\x64\Debug\udpServer.exe 或上一个增量链接没有生成它；正在执行完全链接
+  udpServer.vcxproj -> E:\VS2019\project\lab3-3\udpServer\x64\Debug\udpServer.exe

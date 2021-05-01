@@ -1,0 +1,7 @@
+﻿  chatServerDlg.cpp
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(175,3): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(176,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(208,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(210,11): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(229,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  chatServer.vcxproj -> E:\VS2019\project\MFC\chatServer\Debug\chatServer.exe

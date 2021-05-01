@@ -1,0 +1,22 @@
+﻿  chatServerDlg.cpp
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(103,41): error C2664: “int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)”: 无法将参数 2 从“const char [7]”转换为“const LVCOLUMNW *”
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(103,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxcmn.h(530,6): message : 参见“CListCtrl::InsertColumn”的声明
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(105,40): error C2664: “int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)”: 无法将参数 2 从“const char [7]”转换为“const LVCOLUMNW *”
+E:\VS2019\project\MFC\chatServer\chatServer\chatServerDlg.cpp(105,30): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxcmn.h(530,6): message : 参见“CListCtrl::InsertColumn”的声明
+  Server.cpp
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(14,44): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(14,44): message : 尝试匹配参数列表“(const char [21])”时
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(25,35): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(25,35): message : 尝试匹配参数列表“(const char [13])”时
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(30,37): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6549,12): message : 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+E:\VS2019\VC\Tools\MSVC\14.27.29110\atlmfc\include\afxwin.h(6547,12): message : 或    “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(30,37): message : 尝试匹配参数列表“(const char [15])”时
+E:\VS2019\project\MFC\chatServer\chatServer\Server.cpp(18,2): error C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  正在生成代码...
