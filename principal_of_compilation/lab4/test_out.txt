@@ -1,0 +1,78 @@
+单词    词素    属性         
+     INT     int
+      ID       f       0 0
+  LPAREN       (
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       1 0
+    SEMI       ;
+  STRING  string
+      ID       c       1 1
+  ASSIGN       =
+STRINGVAL "dsajf"
+    SEMI       ;
+    CHAR    char
+      ID       m       1 2
+  ASSIGN       =
+ CHARVAL     'd'
+    SEMI       ;
+   FLOAT   float
+      ID       n       1 3
+  ASSIGN       =
+  NUMBER    0.56    0.56
+    SEMI       ;
+      ID       a       1 0
+  ASSIGN       =
+  NUMBER       0       0
+    SEMI       ;
+   WHILE   while
+  LPAREN       (
+      ID       a       1 0
+      LT       <
+  NUMBER      10      10
+  RPAREN       )
+  LBRACE       {
+      ID       a       1 0
+     MUL       *
+  ASSIGN       =
+  NUMBER       2       2
+    SEMI       ;
+  RBRACE       }
+  RETURN  return
+      ID       a       1 0
+    SEMI       ;
+  RBRACE       }
+     INT     int
+      ID    main       2 0
+  LPAREN       (
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       3 0
+    SEMI       ;
+      ID       a       3 0
+  ASSIGN       =
+  NUMBER       0       0
+    SEMI       ;
+      IF      if
+  LPAREN       (
+      ID       a       3 0
+      EQ      ==
+  NUMBER       0       0
+  RPAREN       )
+  LBRACE       {
+     INT     int
+      ID       a       4 0
+    SEMI       ;
+      ID       a       4 0
+  ASSIGN       =
+      ID       a       4 0
+    PLUS       +
+  NUMBER       1       1
+    SEMI       ;
+  RBRACE       }
+  RETURN  return
+      ID       a       3 0
+    SEMI       ;
+  RBRACE       }

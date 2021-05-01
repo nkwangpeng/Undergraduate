@@ -1,0 +1,83 @@
+lno@0  @0  program     children: [@1 ]            program: 
+lno@2  @1  function    children: [@2 @3 @4 @8 @11 @16 @20 @23 @26 ]  function:
+lno@2  @2  type        children: []               type: void
+lno@2  @3  variable    children: []               varname: main
+lno@3  @4  statement   children: [@5 @6 @7 ]      stmt: decl
+lno@3  @5  type        children: []               type: int
+lno@3  @6  variable    children: []               varname: a
+lno@3  @7  variable    children: []               varname: s
+lno@4  @8  statement   children: [@9 @10 ]        stmt: assign
+lno@4  @9  variable    children: []               varname: a
+lno@4  @10 const       children: []               type: int
+lno@5  @11 statement   children: [@12 @13 ]       stmt: assign
+lno@5  @12 variable    children: []               varname: s
+lno@5  @13 expression  children: [@14 @15 ]       OP: ADD
+lno@5  @14 variable    children: []               varname: s
+lno@5  @15 const       children: []               type: int
+lno@6  @16 statement   children: [@17 @18 @19 ]   stmt: decl
+lno@6  @17 type        children: []               type: bool
+lno@6  @18 variable    children: []               varname: h
+lno@6  @19 const       children: []               type: bool
+lno@7  @20 statement   children: [@21 @22 ]       stmt: decl
+lno@7  @21 type        children: []               type: char
+lno@7  @22 variable    children: []               varname: ch
+lno@7  @23 statement   children: [@24 @25 ]       stmt: scanf
+lno@8  @24 const       children: []               type: string
+lno@8  @25 variable    children: []               varname: ch
+lno@9  @26 statement   children: [@27 @45 @48 @51 @54 @57 ]  stmt: while
+lno@9  @27 expression  children: [@28 @35 ]       OP: OR
+lno@9  @28 expression  children: [@29 @32 ]       OP: AND
+lno@9  @29 expression  children: [@30 @31 ]       OP: L
+lno@9  @30 variable    children: []               varname: a
+lno@9  @31 const       children: []               type: int
+lno@9  @32 expression  children: [@33 @34 ]       OP: SEQ
+lno@9  @33 variable    children: []               varname: a
+lno@9  @34 const       children: []               type: int
+lno@9  @35 expression  children: [@36 @41 ]       OP: AND
+lno@9  @36 expression  children: [@37 @40 ]       OP: EQ
+lno@9  @37 expression  children: [@38 @39 ]       OP: MOD
+lno@9  @38 variable    children: []               varname: a
+lno@9  @39 const       children: []               type: int
+lno@9  @40 const       children: []               type: int
+lno@9  @41 expression  children: [@42 @44 ]       OP: EQ
+lno@9  @42 expression  children: [@43 ]           OP: NOT
+lno@9  @43 variable    children: []               varname: a
+lno@9  @44 const       children: []               type: int
+lno@10 @45 expression  children: [@46 @47 ]       OP: SUBASS
+lno@10 @46 variable    children: []               varname: a
+lno@10 @47 const       children: []               type: int
+lno@11 @48 statement   children: [@49 @50 ]       stmt: decl
+lno@11 @49 type        children: []               type: int
+lno@11 @50 variable    children: []               varname: a
+lno@12 @51 statement   children: [@52 @53 ]       stmt: assign
+lno@12 @52 variable    children: []               varname: a
+lno@12 @53 const       children: []               type: int
+lno@13 @54 expression  children: [@55 @56 ]       OP: ADDASS
+lno@13 @55 variable    children: []               varname: s
+lno@13 @56 variable    children: []               varname: a
+lno@14 @57 statement   children: [@58 @61 @64 @67 @70 ]  stmt: if_else
+lno@14 @58 expression  children: [@59 @60 ]       OP: L
+lno@14 @59 variable    children: []               varname: s
+lno@14 @60 const       children: []               type: int
+lno@14 @61 statement   children: [@62 @63 ]       stmt: printf
+lno@15 @62 const       children: []               type: string
+lno@15 @63 variable    children: []               varname: s
+lno@16 @64 statement   children: [@65 @66 ]       stmt: decl
+lno@16 @65 type        children: []               type: int
+lno@16 @66 variable    children: []               varname: b
+lno@17 @67 statement   children: [@68 @69 ]       stmt: assign
+lno@17 @68 variable    children: []               varname: b
+lno@17 @69 const       children: []               type: int
+lno@18 @70 statement   children: [@71 @75 @78 @80 ]  stmt: for
+lno@18 @71 statement   children: [@72 @73 @74 ]   stmt: decl
+lno@18 @72 type        children: []               type: int
+lno@18 @73 variable    children: []               varname: i
+lno@18 @74 const       children: []               type: int
+lno@18 @75 expression  children: [@76 @77 ]       OP: S
+lno@18 @76 variable    children: []               varname: i
+lno@18 @77 variable    children: []               varname: b
+lno@18 @78 expression  children: [@79 ]           OP: DADD
+lno@18 @79 variable    children: []               varname: i
+lno@18 @80 statement   children: [@81 @82 ]       stmt: printf
+lno@19 @81 const       children: []               type: string
+lno@19 @82 variable    children: []               varname: i
